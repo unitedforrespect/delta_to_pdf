@@ -119,7 +119,8 @@ class _MyHomePageState extends State<MyHomePage> {
             Expanded(
               child: fq.QuillEditor.basic(
                 configurations: fq.QuillEditorConfigurations(
-                    controller: _controller, readOnly: false),
+                    controller: _controller,
+                ),
               ),
             )
           ],
